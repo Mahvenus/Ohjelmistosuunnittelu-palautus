@@ -1,5 +1,12 @@
-//toinen esimerkki luodaan muuttuja, jonka arvo on 0 alussa int summa = 0;
+//toinen esimerkki
+//luodaan muuttuja, jonka arvo on 0 alussa
+int summa = 0;
 
-kasvatetaan lukua aina +i, kunnes i <=5 for (int i = 1; i <= 5; i++) { summa += i; }
+//kasvatetaan lukua aina +i, kunnes i <=5
+for (int i = 1; i <= 5; i++)
+{
+    summa += i;
+}
 
-tulostetaan summa Console.WriteLine(summa;
+//tulostetaan summa
+Console.WriteLine(summa);
