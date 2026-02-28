@@ -1,5 +1,26 @@
-// Ohjelmistosuunnittelu-palautus
+Imperative paradigm 
 
+Tässä käsitellään imperatiivista ohjelmointiparadigmaa, sen keskeisiä periaatteita, rakennetta, alamuotoja sekä havainnoidaan hieman verrattaen deklaratiiviseen ohjelmointiin. 
+Imperatiivinen ohjelmointi on yksi ohjelmoinnin paradigma. 
+Käsitellään käskyjä järjestyksessä haluttua lopputulosta varten. 
+
+Keskeistä on:
+- Suoritusjärjestys on tarkasti määritelty
+- Ohjelman tila muuttuu suorituksen aikana
+- Muuttujia käytetään arvojen tallentamiseen ja päivittämiseen
+- Ohjausrakenteet määrittävät ohjelman etenemisen
+
+Keskeisiä käskyjen muodostamisessa on:
+- if / else
+- switch
+- for
+- while
+- do-while
+- funktiokutsuilla
+
+Ohjelmistosuunnittelu-palautuksen alta löydät 2 esimerkkiä C# kirjoitettuna. 
+
+KOODI1:
 //ensimmäinen esimerkki
 //listan luominen
 List<int> numerot = new List<int> {1, 2, 3, 4, 5};
@@ -15,6 +36,7 @@ foreach (int luku in numerot)
     }
 }
 
+KOODI2:
 //toinen esimerkki
 //luodaan muuttuja, jonka arvo on 0 alussa
 int summa = 0;
